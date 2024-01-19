@@ -1,0 +1,25 @@
+#localmakers {
+    background-color: #e7ffae;
+}
+
+#localmakersbutton {
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#localmakersbutton:hover {
+    box-shadow: 3px 3px 5px rgb(0, 121, 64);
+}
+
+#arrow {
+    transition: transform 0.3s;
+}
+
+#arrow:hover {
+    transform: translateX(5px)
+}
+
+img:hover {
+    box-shadow: none;
+}

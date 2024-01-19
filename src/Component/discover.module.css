@@ -1,0 +1,9 @@
+#discover img {
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+#discover img:hover {
+    transform: rotateY(180deg);
+    box-shadow: 0px 7px 7px rgb(0, 26, 255);
+}

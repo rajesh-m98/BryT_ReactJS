@@ -1,0 +1,17 @@
+#arrow {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+#arrow:hover {
+    transform: translateX(5px)
+}
+button {
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow:  3px  3px 3px rgb(182, 185, 186),
+                -3px -3px 3px rgb(182, 185, 186),
+                -3px  3px 3px rgb(182, 185, 186),
+                 3px -3px 3px rgb(182, 185, 186);
+}

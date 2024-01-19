@@ -1,0 +1,23 @@
+#populargifts {
+    background-color: #ffff98;
+}
+
+#populargifts button {
+    cursor: pointer;
+    transition: 0.4s;
+}
+#populargifts button:hover {
+    border-radius: 10px;
+    box-shadow:  5px  5px 5px rgb(255, 157, 0),
+                -5px -5px 5px rgb(0, 157, 255),
+                -5px  5px 5px rgb(0, 157, 255),
+                 5px -5px 5px rgb(0, 157, 255);
+}
+
+strike {
+    color: red;
+}
+strong {
+    color: rgb(88, 234, 88);
+    font-weight: bold;
+}

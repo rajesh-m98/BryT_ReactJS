@@ -1,0 +1,26 @@
+#festivepicks {
+    background-color: rgb(197, 255, 236);
+}
+
+button {
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+} 
+
+button:hover {
+    box-shadow:  3px  3px 3px rgb(108, 101, 101),
+                -3px -3px 3px rgb(108, 101, 101),
+                -3px  3px 3px rgb(108, 101, 101),
+                 3px -3px 3px rgb(108, 101, 101);
+}
+
+#arrow {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+#arrow:hover {
+    transform: translateX(5px)
+}

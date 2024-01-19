@@ -1,0 +1,209 @@
+/* ---------------------------- Nav Bar ------------------------------ */
+#nav {
+    background-color: rgb(255, 197, 121);
+}
+
+#nav span {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#nav span:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* -------------------------- Logo --------------------------------- */
+#logo {
+    background-color: #a3e7ff;
+}
+
+#none {
+    font-weight: bold;
+}
+
+#BryT {
+    font-size: 2rem;
+    text-shadow: 2.3px 0px 1px red;
+}
+
+/* ------------------------ Shop By Category ---------------------------*/
+#shopcategory {
+    background-color: rgb(255, 237, 183);
+}
+
+#shopcategory button {
+    cursor: pointer;
+    rotate: 352deg;
+    transition: 1s;
+}
+
+#shopcategory button:hover {
+    box-shadow:  3px  3px 10px rgb(255, 86, 86),
+                -3px -3px 10px rgb(255, 86, 86),
+                -3px  3px 10px rgb(255, 86, 86),
+                 3px -3px 10px rgb(255, 86, 86);
+    rotate: 360deg;
+}
+
+#shopcategory #showmore {
+    rotate: none;
+    border-radius: 50px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    transition: 0.8s;
+}
+
+#shopcategory #showmore:hover {
+    box-shadow:  3px  3px 3px rgb(180, 180, 180),
+                -3px -3px 3px rgb(180, 180, 180),
+                -3px  3px 3px rgb(180, 180, 180),
+                 3px -3px 3px rgb(180, 180, 180);
+}
+
+/* ------------------------- Editor's Picks ----------------------------- */
+#editors {
+    background-color: rgb(234, 241, 239);
+}
+
+#editorspick {
+    background: transparent;
+}
+
+#arrow {
+    transition: transform 0.3s;
+}
+
+#arrow:hover {
+    transform: translateX(5px)
+}
+
+#editorspick1 button img {
+    transform-style: preserve-3d;
+    transition: transform 0.7s;
+}
+
+#editorspick1 button img:hover {
+    transform: rotateY(-180deg);
+    box-shadow:  3px  3px 3px rgb(83, 83, 83),
+                -3px -3px 3px rgb(83, 83, 83),
+                -3px  3px 3px rgb(83, 83, 83),
+                 3px -3px 3px rgb(83, 83, 83);
+}
+
+/* ---------------------------- Subscribe -------------------------- */
+#subscribe {
+    background-color: rgb(215, 230, 245);
+}
+
+/* ------------------------ Powered by -------------------------- */
+#poweredby {
+    background-color: #8bb3dc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#percent {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#percent svg {
+    width: 40px;
+}
+
+/* ----------------------------- Others----------------------------- */
+#appdownload {
+    text-align: center;
+    background-color: rgb(18, 40, 104);
+}
+
+#brytapp {
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    min-height: 25%;
+    font-size: 2.3em;
+}
+
+#download {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+}
+
+#links {
+    background-color:  rgb(49, 64, 175);
+}
+
+#links table td,
+#links table th {
+    padding: 4px; 
+}
+
+#head {
+    font-weight: bold;
+}
+
+#links #head {
+    transform: none;
+    cursor: text;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#links p {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#links p:hover {
+    transform: translateX(3px);
+    text-decoration: underline;
+}
+
+/* ------------------------ Footer ------------------------- */
+#foot {
+    background-color: #838383;
+}
+
+#footer {
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+#footer:hover {
+    background-color: rgb(62, 62, 62);
+}
+
+select {
+    background-color: transparent !important; 
+    outline: none;
+    cursor: pointer;
+}
+
+option {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    cursor: pointer;
+}
+
+#buttons {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#butt1 {
+    background: transparent; 
+    font-size: 16px;
+    border: none;
+    text-decoration: underline;
+}
+
+#buttons button {
+    font-size: 14px;
+}
